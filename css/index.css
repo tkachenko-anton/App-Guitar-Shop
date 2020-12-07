@@ -3,6 +3,7 @@
   --color-white: #fff;
   --color-unaccent: #808080;
   --color-medium: #e8e8e8;
+  --color-dark: #a1a1a1;
 
   --spacing-small: 10px;
   --spacing-medium: 15px;
@@ -16,6 +17,18 @@
 		0 8px 10px -5px rgba(33,37,41,.1);
 }
 
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: var(--color-dark);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: var(--color-white);
+}
+
 * {
   box-sizing: border-box;
 }
@@ -26,3 +39,4 @@ body {
   line-height: 1.7;
   background-color: var(--color-light);
 }
+
