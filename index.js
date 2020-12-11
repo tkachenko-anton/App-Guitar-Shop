@@ -14,7 +14,12 @@ fetch('server/catalog.json')
   .then(res => res.json())
   .then(body => {
     CATALOG = body;
-    render();
+
+    setTimeout(() => {
+      spinnerPage.handleClear();
+      render();
+    }, 1000);
+    
   })
   .catch(error => {
     console.log(error);
