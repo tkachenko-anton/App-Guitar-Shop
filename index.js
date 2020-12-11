@@ -5,6 +5,8 @@ function render() {
   productsPage.render();
 }
 
+spinnerPage.render();
+
 let CATALOG = [];
 
 // https://api.myjson.com/bins/esicc
