@@ -14,4 +14,4 @@ class Spinner {
   }
 }
 
-const spinner = new Spinner();
+const spinnerPage = new Spinner();
